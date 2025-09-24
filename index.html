@@ -6,24 +6,17 @@
     <title>Dev Smash</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="/Lanchonete/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header class="header">
       <div class="title">
-        <img src="/Lanchonete/assets/img/hamb-1.png" alt="Logo" />
+        <img src="/assets/img/hamb-1.png" alt="Logo" />
         <h1>Dev Smash</h1>
         <span>Rua dev rush, 14 - Salvador, BA</span>
         <div class="funcion">
@@ -32,33 +25,54 @@
       </div>
     </header>
 
-    <div class="container">
-      <div class="item-1">
-        <img src="/Lanchonete/assets/img/hamb-1.png" alt="" />
-        <h1>cheese Burger Duplo</h1>
-        <p>
-          Pãolevinho de fermentação natural da Trigou, burger 160g, queijo prato
-          e maionese da casa
-        </p>
-      </div>
+    <div id="menu" class="container">
+      <main class="grid">
+        <div class="item">
+          <img src="./assets/img/hamb-1.png" alt="Hamburguer Smash" />
 
-      <div class="item-1">
-        <img src="/Lanchonete/assets/img/hamb-1.png" alt="" />
-        <h1>cheese Burger Duplo</h1>
-        <p>
-          Pãolevinho de fermentação natural da Trigou, burger 160g, queijo prato
-          e maionese da casa
-        </p>
-      </div>
+          <div class="text">
+            <h3>Hamburguer Smash</h3>
+            <p>
+              Pão levinho de fermentação natural da Trigou buger 160g queijo
+              prato e maionese da casa.
+            </p>
 
-      <div class="item-1">
-        <img src="/Lanchonete/assets/img/hamb-1.png" alt="" />
-        <h1>cheese Burger Duplo</h1>
-        <p>
-          Pãolevinho de fermentação natural da Trigou, burger 160g, queijo prato
-          e maionese da casa
-        </p>
-      </div>
+            <div class="price">
+              <p>R$ 18.90</p>
+              <button
+                class="cart-btn"
+                data-name="Hamburguer Smash"
+                data-price="18.90"
+              >
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./assets/img/hamb-2.png" alt="Cheese Burger Duplo" />
+
+          <div class="text">
+            <h3>Cheese Burger Duplo</h3>
+            <p>
+              Pão levinho de fermentação natural da Trigou buger 160g queijo
+              prato e maionese da casa.
+            </p>
+
+            <div class="price">
+              <p>R$ 23.90</p>
+              <button
+                class="cart-btn"
+                data-name="Hamburguer Smash"
+                data-price="13.90"
+              >
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
