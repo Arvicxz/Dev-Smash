@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +16,7 @@
   <body>
     <header class="header">
       <div class="title">
-        <img src="/assets/img/hamb-1.png" alt="Logo" />
+        <img src="./assets/img/hamb-1.png" alt="Logo" />
         <h1>Dev Smash</h1>
         <span>Rua dev rush, 14 - Salvador, BA</span>
         <div class="funcion">
@@ -25,7 +25,9 @@
       </div>
     </header>
 
-    <div id="menu">
+    <h2 class="title-menu">CONHEÇA NOSSO MENU</h2>
+
+    <div id="menu" class="menu">
       <main class="grid">
         <div class="item">
           <img src="./assets/img/hamb-1.png" alt="Hamburguer Smash" />
@@ -56,15 +58,15 @@
           <div class="text">
             <h3>Duplo Bacon</h3>
             <p>
-              Pão levinho de fermentação natural da Trigou 2 bugers 160g bacon fatiado e crocante queijo
-              cheddar e maionese da casa.
+              Pão levinho de fermentação natural da Trigou 2 bugers 160g bacon
+              fatiado e crocante queijo cheddar e maionese da casa.
             </p>
 
             <div class="price">
               <p>R$ 18.90</p>
               <button
                 class="cart-btn"
-                data-name="Hamburguer Smash"
+                data-name="Duplo Bacon"
                 data-price="18.90"
               >
                 <i class="fa fa-cart-plus"></i>
@@ -87,7 +89,7 @@
               <p>R$ 23.90</p>
               <button
                 class="cart-btn"
-                data-name="Hamburguer Smash"
+                data-name="Cheese Burger Duplo"
                 data-price="23.90"
               >
                 <i class="fa fa-cart-plus"></i>
@@ -110,7 +112,98 @@
               <p>R$ 21.90</p>
               <button
                 class="cart-btn"
-                data-name="Hamburguer Smash"
+                data-name="Cheese Chicken"
+                data-price="21.90"
+              >
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./assets/img/hamb-5.png" alt="Cheese Burger" />
+
+          <div class="text">
+            <h3>Cheese Burger</h3>
+            <p>
+              Pão levinho de fermentação natural da Trigou 2 bugers 160g queijo
+              branco e maionese da casa.
+            </p>
+
+            <div class="price">
+              <p>R$ 16.90</p>
+              <button
+                class="cart-btn"
+                data-name="Cheese Burger"
+                data-price="16.90"
+              >
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./assets/img/hamb-6.png" alt="Cheese Crispy" />
+
+          <div class="text">
+            <h3>Cheese Crispy</h3>
+            <p>
+              Pão levinho de fermentação natural da Trigou buger 160g queijo
+              qualho cebola roxa e maionese da casa.
+            </p>
+
+            <div class="price">
+              <p>R$ 21.90</p>
+              <button
+                class="cart-btn"
+                data-name="Cheese Crispy"
+                data-price="21.90"
+              >
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./assets/img/hamb-7.png" alt="Cheese Stake Rodeio" />
+
+          <div class="text">
+            <h3>Cheese Stake Rodeio</h3>
+            <p>
+              Pão levinho de fermentação natural da Trigou buger 160g cheddar
+              onion rings e maionese da casa.
+            </p>
+
+            <div class="price">
+              <p>R$ 25.90</p>
+              <button
+                class="cart-btn"
+                data-name="Cheese Stake Rodeio"
+                data-price="25.90"
+              >
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./assets/img/hamb-8.png" alt="Cheese Vegetarian" />
+
+          <div class="text">
+            <h3>Cheese Vegetarian</h3>
+            <p>
+              Pão levinho de fermentação natural da Trigou buger soja 160g
+              salada e molho especial da casa.
+            </p>
+
+            <div class="price">
+              <p>R$ 21.90</p>
+              <button
+                class="cart-btn"
+                data-name="Cheese Vegetarian"
                 data-price="21.90"
               >
                 <i class="fa fa-cart-plus"></i>
@@ -119,6 +212,78 @@
           </div>
         </div>
       </main>
+
+      <h2 class="title-menu">BEBIDAS</h2>
+
+      <div class="grid">
+        <div class="item">
+          <img src="./assets/img/refri-1.png" alt="Coca lata" />
+
+          <div class="text">
+            <h3>Coca lata</h3>
+
+            <div class="price">
+              <p>R$ 6.90</p>
+              <button class="cart-btn" data-name="Coca lata" data-price="6.90">
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./assets/img/refri-2.png" alt="Guaraná lata" />
+
+          <div class="text">
+            <h3>Guaraná lata</h3>
+
+            <div class="price">
+              <p>R$ 6.90</p>
+              <button
+                class="cart-btn"
+                data-name="Guaraná lata"
+                data-price="6.90"
+              >
+                <i class="fa fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="modal" id="modal">
+      <div class="cart">
+        <h2>Meu carrinho</h2>
+        <button class="close" id="close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="cart-items" id="cart-items"></div>
+
+        <p>Total: <span id="cart-total">0.00</span></p>
+
+        <p>Endereço de entrega:</p>
+
+        <input
+          type="text"
+          placeholder="Digite aqui o seu endereço..."
+          id="address"
+        />
+
+        <p class="erro" id="address-warn">Digite o seu endereço completo</p>
+
+        <div class="finish">
+          <button>Finalizar</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <button class="cart-count" id="cart-btn">
+        (<span id="cart-count">0</span>) Ver meu carrinho
+        <i class="fa fa-cart-plus"></i>
+      </button>
+    </footer>
   </body>
 </html>
