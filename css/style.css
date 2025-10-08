@@ -106,7 +106,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  /* aumentar padding-bottom para 10rem para garantir espaço suficiente acima do footer fixo */
   padding-bottom: 10rem;
 }
 
@@ -135,7 +134,7 @@ body {
   height: 7rem;
   border-radius: 8px;
   transition: transform 300ms ease;
-  flex-shrink: 0; /* garantir que a imagem não encolha */
+  flex-shrink: 0; 
 }
 
 .item img:hover {
@@ -147,7 +146,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  justify-content: space-between; /* adicionar flex para controlar o layout interno */
+  justify-content: space-between; 
 }
 
 .text h3 {
@@ -157,7 +156,7 @@ body {
 .text p {
   font-size: 0.9rem;
   line-height: 1.4;
-  flex: 1; /* permitir que o texto cresça e empurre o preço para baixo */
+  flex: 1; 
 }
 
 .price {
@@ -166,7 +165,7 @@ body {
   justify-content: space-between;
   gap: .5rem;
   margin-top: .75rem;
-  flex-shrink: 0; /* garantir que o preço fique sempre na mesma linha */
+  flex-shrink: 0; 
 }
 
 .price p {
