@@ -66,17 +66,6 @@ body {
   transform: scale(1.1);
 }
 
-.funcion {
-  background-color: var(--green);
-  margin-top: 10px;
-  border-radius: 8px;
-  padding: 4px 16px;
-}
-
-.funcion span {
-  color: var(--bg);
-  font-weight: bold;
-}
 
 .title-menu {
   color: var(--black);
@@ -173,7 +162,7 @@ body {
   font-size: large;
 }
 
-.cart-btn {
+.addCart-btn {
   background: #1a202c;
   padding: 5px 18px;
   border-radius: .5rem;
@@ -184,13 +173,8 @@ body {
   transition: background 200ms ease;
 }
 
-.cart-btn:hover {
+.addCart-btn:hover {
   background: #2d3748;
-}
-
-.cart-btn:focus {
-  outline: 2px solid var(--green);
-  outline-offset: 2px;
 }
 
 footer {
@@ -217,11 +201,6 @@ footer {
 
 .cart-count:hover {
   opacity: 0.9;
-}
-
-.cart-count:focus {
-  outline: 2px solid var(--white);
-  outline-offset: 2px;
 }
 
 .modal {
@@ -301,11 +280,6 @@ footer {
   font-family: "Roboto", sans-serif;
 }
 
-.cart input:focus {
-  outline: none;
-  border-color: var(--green);
-}
-
 .erro {
   color: var(--red);
   font-size: 0.875rem;
@@ -339,11 +313,6 @@ footer {
   background: #f1f1f1;
 }
 
-.close:focus {
-  outline: 2px solid var(--red);
-  outline-offset: 2px;
-}
-
 .finish {
   display: flex;
   align-items: center;
@@ -365,9 +334,4 @@ footer {
 
 .finish button:hover {
   background: #48b008;
-}
-
-.finish button:focus {
-  outline: 2px solid var(--green);
-  outline-offset: 2px;
 }
